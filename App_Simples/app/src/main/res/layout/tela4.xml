@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/tela4">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Site"
+        android:id="@+id/button7"
+        android:onClick="site"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#bd036a78"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Youtube"
+        android:id="@+id/button8"
+        android:onClick="youtube"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button9"
+        android:layout_alignEnd="@+id/button9"
+        android:background="#943540"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Sobre"
+        android:id="@+id/button10"
+        android:onClick="sobre"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:id="@+id/button11"
+        android:onClick="voltar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ae8287"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:text="Sair"
+        android:id="@+id/button9"
+        android:onClick="sair2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ae8287"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/button11" />
+
+</RelativeLayout>

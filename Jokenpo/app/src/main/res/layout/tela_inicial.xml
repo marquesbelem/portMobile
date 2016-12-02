@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="horizontal"
+        android:background="#a8312d2d"
+        >
+
+
+        <ImageView
+            android:src="@drawable/pedra2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/computador"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+        <TextView
+            android:text="0"
+            android:textSize="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/placarJogador"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="0dp"
+
+            />
+
+        <TextView
+            android:text="x"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:text="0"
+            android:textSize="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/placarComputador"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+
+            />
+        <ImageView
+            android:src="@drawable/pedra2"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:id="@+id/jogador"
+            android:layout_marginTop="200dp"
+           android:layout_marginLeft="-260dp"
+
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="#c5000000"
+        >
+
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="Pedra"
+            android:id="@+id/pedra"
+            android:onClick="pedra"
+
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="Tesoura"
+            android:id="@+id/tesoura"
+            android:onClick="tesoura"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="Papel"
+            android:id="@+id/papel2"
+            android:onClick="papel"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
